@@ -1,4 +1,15 @@
+<!--
+Creator: Baseline curriculum
+Editor: Ben Hulan
+Market: SF
+-->
+
+![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
+
 # CSS Selectors Basics
+
+## Why is this important?
+After this workshop, developers should be able to hand code a simple website from scratch with HTML and CSS. Arguably, you don't need to know this because nobody really starts from scratch anymore. However, this should solidify your conceptual model of how these things go together and improving your specific knowledge of some fundamental CSS properties so you can debug CSS more quickly.
 
 ### Objectives
 *After this lesson, students will be able to:*
@@ -32,7 +43,7 @@ CSS stands for:
 
 It provides the browser with precise instructions on how to style each element we want displayed on the page and can affect the text format - like font, size, color - the size and position of various objects on the page, colors, spacial layouts, etc. There are literally hundreds of different properties we can use to style HTML elements on a webpage.
 
-## Let's write some CSS - Codealong (20 mins)
+## Let's write some CSS - Catchup (20 mins)
 
 Create a new folder with a HTML page:
 
@@ -228,6 +239,7 @@ Luckily for us, CSS gives us some nice shortcuts that we'll go over throughout t
 ```
 
 Notice, we can comment out CSS with `/* your css */`.
+
 
 ## Differences between Classes and IDs - Demo (15 mins)
 
@@ -595,20 +607,19 @@ One of the most important concepts with CSS is specificity. Imagine you select a
 
 Every selector has its place in the specificity hierarchy, and if two selectors apply to the same element, the one with higher specificity wins.  Overall, there are four distinct factors that define the specificity level of a given selector: inline styles, IDs, classes+attributes and elements.  You can calculate CSS specificity with CSS Specificity Calculator:
 
-<img src="https://css-tricks.com/wp-content/csstricks-uploads/specificity-calculationbase.png" />
+<img src="https://css-tricks.com/wp-content/csstricks-uploads/specificity-calculationbase.png" style="width: 400px;" />
 
 ###Calculating specificity
 
-<img src='https://css-tricks.com/wp-content/csstricks-uploads/cssspecificity-calc-1.png' />
+<img src='https://css-tricks.com/wp-content/csstricks-uploads/cssspecificity-calc-1.png' style="width: 400px;" />
 
-*This is calculated as 113*
+*This is calculated as 0113*
 
-<img src='https://css-tricks.com/wp-content/csstricks-uploads/cssspecificity-calc-2.png' />
+<img src='https://css-tricks.com/wp-content/csstricks-uploads/cssspecificity-calc-2.png' style="width: 400px;" />
 
+*This is calculated as 0023*
 
-*This is calculated as 23*
-
-<img src='https://css-tricks.com/wp-content/csstricks-uploads/cssspecificity-calc-4.png' />
+<img src='https://css-tricks.com/wp-content/csstricks-uploads/cssspecificity-calc-4.png' style="width: 400px;" />
 
 *This is calculated as 1000*
 
@@ -616,20 +627,19 @@ A couple of rules to think about:
 
 - If two selectors apply to the same element, the one with higher specificity wins
 - When selectors have an equal specificity value, the latest rule is the one that counts
-- When selectors have an unequal specificity value, the more specific rule is the one that counts
-- Rules with more specific selectors have a greater specificity
-- The last rule defined overrides any previous, conflicting rules
-- The embedded style sheet has a greater specificity than other rules
-- ID selectors have a higher specificity than attribute selectors
-- You should always try to use IDs to increase the specificity
-- A class selector beats any number of element selectors
-
-_Taken from SmashingMagazine.com_
-
-> Read more about CSS Specificity [here](http://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
+- More specific selectors beat less specific ones
+- id specificity > class specificity > tag specificity
+- Inline styles > Internal styles > External styles
+- !important trumps all of the above.
 
 
-## Independent Practice - Using CSS to select class and id attributes (10 minutes)
+### Emmet (Optional)
+
+Emmet is a cool (optional) tool that dramatically reduces the number of keystrokes you make.
+* Demo
+* [Emmet Cheatsheet](http://docs.emmet.io/cheat-sheet/)
+
+## Independent Practice - Using CSS to select class and id attributes (20 minutes)
 
 Go back to your code from the previous independent practice problem and continue to work through these exercises:
 
