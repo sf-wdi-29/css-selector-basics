@@ -157,14 +157,14 @@ touch css/style.css
 
 ```
 
-Then we can move the CSS from our internal style sheet to our external style sheet and add the file path (`href="style.css"`) to our HTML file:
+Then we can move the CSS from our internal style sheet to our external style sheet and add the file path (`href="css/style.css"`) to our HTML file:
 
 ```html
  <!DOCTYPE>
  <html>
    <head>
      <title>Intro to CSS</title>
-   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="css/style.css">
    </head>
  <body>
  </body>
@@ -190,7 +190,7 @@ And let's add some more html to our index.html:
  <html>
    <head>
      <title>Intro to CSS</title>
-   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="css/style.css">
    </head>
 
    <body>
@@ -259,7 +259,7 @@ Watch me add some HTML to our index.html and then style those elements by select
 <html>
   <head>
   <title>Intro to CSS</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
@@ -327,7 +327,7 @@ How about we try it out?  Altering the HTML:
 <html>
   <head>
   <title>Intro to CSS</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
@@ -436,7 +436,7 @@ Let's add:
 <html>
   <head>
   <title>Intro to CSS</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
@@ -512,7 +512,7 @@ We can even use classes/IDs with elements to select and style HTML. Lets add a s
 <html>
   <head>
   <title>Intro to CSS</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
