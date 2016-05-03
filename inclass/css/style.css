@@ -1,0 +1,33 @@
+body {
+    background: pink; /* better for projector */
+}
+p {
+    color: orange;
+}
+div {
+    border: 1px solid black;
+}
+.comments {
+    font-weight: bold;
+    color: #64FE2E;  /* green */
+}
+#dolphin {
+    font-style: italic;
+    color: #0040FF; /* blue */
+}
+.big-font {
+    font-size: 40px;
+    color: blue;
+}
+.red-text {
+    color: red;
+}
+li {
+    text-align: center;
+}
+li.why {
+    font-family: sans-serif;
+}
+li#not {
+    font-family: serif;
+}
