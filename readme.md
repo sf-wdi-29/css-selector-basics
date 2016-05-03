@@ -31,7 +31,7 @@ After this workshop, developers should be able to hand code a simple website fro
 - Open the chrome console and inspect elements.
 
 
-## What is CSS? Intro (5 mins)
+## What is CSS? Intro
 
 If HTML is a set of instructions telling the browser what to display, CSS tells it how to display it.
 
@@ -43,7 +43,7 @@ CSS stands for:
 
 It provides the browser with precise instructions on how to style each element we want displayed on the page and can affect the text format - like font, size, color - the size and position of various objects on the page, colors, spacial layouts, etc. There are literally hundreds of different properties we can use to style HTML elements on a webpage.
 
-## Let's write some CSS - Catchup (20 mins)
+## Let's write some CSS - Catch Up
 
 Create a new folder with a HTML page:
 
@@ -241,7 +241,7 @@ Luckily for us, CSS gives us some nice shortcuts that we'll go over throughout t
 Notice, we can comment out CSS with `/* your css */`.
 
 
-## Differences between Classes and IDs - Demo (15 mins)
+## Differences between Classes and IDs - Demo
 
 #### The Class Selector
 
@@ -388,7 +388,7 @@ div {
 Sweet!
 
 
-## Style using Classes and IDs - Independent Practice (10 mins)
+## Style using Classes and IDs - Independent Practice
 
 Using what we've done in class, open the [starter code](starter-code) provided and see how far you can get through these exercises in 10 minutes:
 
@@ -424,7 +424,7 @@ Using what we've done in class, open the [starter code](starter-code) provided a
     - bird - lightGray
     - fish - lightYellow
 
-#### Multiple classes and multiple elements - Codealong (10 mins)
+#### Multiple classes and multiple elements - Catch Up
 
 You can also chain classes together, applying several classes to one element:
 
@@ -599,7 +599,7 @@ Now, all our list items are centered but the top item has a different font than 
 
 
 
-## Specificity in CSS - Intro (10 mins)
+## Specificity in CSS - Intro
 
 One of the most important concepts with CSS is specificity. Imagine you select an element by it's class and give it some style; then, on the next line, you select the same element by it's element name and it's ID - how does the browser know what style to apply?  Well, every element gets a score and it's this score that dictates what CSS property is applied.
 
@@ -660,7 +660,7 @@ Go back to your code from the previous independent practice problem and continue
 - give all li's a top border of 3 pixels, a color of seagreen, and a style of solid.
 
 
-## Conclusion (5 mins)
+## Conclusion
 
 CSS can be really fun or a total nightmare. You have to remember a few rules, but once you have them remembered, it's great to see your webpage come to life as you imagined.
 
