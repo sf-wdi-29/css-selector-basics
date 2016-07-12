@@ -667,3 +667,8 @@ CSS can be really fun or a total nightmare. You have to remember a few rules, bu
 - Describe the differences between classes and IDs.
 - Identify the popular CSS properties we used today.
 - What are the use cases for inline styling vs. internal/external style sheets?
+
+
+## Licensing
+All content is licensed under a CC­BY­NC­SA 4.0 license.
+All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
