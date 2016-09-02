@@ -633,33 +633,6 @@ A couple of rules to think about:
 - !important trumps all of the above.
 
 
-### Emmet (Optional)
-
-Emmet is a cool (optional) tool that dramatically reduces the number of keystrokes you make.
-* Demo
-* [Emmet Cheatsheet](http://docs.emmet.io/cheat-sheet/)
-
-## Independent Practice - Using CSS to select class and id attributes (20 minutes)
-
-Go back to your code from the previous independent practice problem and continue to work through these exercises:
-
-- make the mammals bold
-- make the birds italic
-- make the fish underlined
-
-- create a new unordered ordered list add a list item for each the following plants:
-
-    - Dogwood Tree
-    - Oak Tree
-    - Saguaro
-    - Kelp
-    - Venus Fly Trap
-    - Ent
-
-- give all ul's a border with a width of 3 pixels, a color of plum, and a style of dotted. Also, give them a border radius of 5px.
-- give all li's a top border of 3 pixels, a color of seagreen, and a style of solid.
-
-
 ## Conclusion
 
 CSS can be really fun or a total nightmare. You have to remember a few rules, but once you have them remembered, it's great to see your webpage come to life as you imagined.
