@@ -1,0 +1,96 @@
+body {
+	background: red;
+}
+
+p {
+	color: #ffa500;
+}
+
+div {
+	border: 1px solid black;
+
+}
+
+.comments {
+	font-weight: bold;
+	color: #64FE2E; /* green */
+}
+
+#dolphin {
+	font-style: italic;
+	color: #0040FF; /*blue*/
+}
+
+.first {
+	font-size: 40px;
+}
+
+.second {
+	color: red;
+}
+
+li {
+	text-align: center
+}
+
+li.why {
+	font-family: sans-serif;
+}
+
+li#not {
+	font-family: serif;
+}
+
+.mammals {
+	color: #ff0000;
+	background-color: lavenderBlush;
+}
+
+.birds {
+	color: #00ff00;
+	background-color: lightGray;
+}
+
+.fish {
+	color: #ffa500;
+}
+
+#mouse {
+	color: gray;
+}
+
+#canary {
+	color: #ff4500;
+}
+
+#penguin {
+	color: #000000;
+}
+
+#salmon {
+	color: #ffa07a;
+}
+
+#cat {
+	color: #a0522d;
+}
+
+#goldfish {
+	color: gold;
+}
+
+#dog {
+	color: tan;
+}
+
+#sheep {
+	color: steelBlue;
+}
+
+#parakeet {
+	color: lime;
+}
+
+#tuna {
+	color: #ff00ff;
+}
